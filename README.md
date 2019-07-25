@@ -1,4 +1,4 @@
-# Project Name
+# Twitter Hashtag scraper and lambda parser 
 
 This project contains code for a pipeline which retrieves hashtags using the Twitter API and stores it in an Aurora database from the last 72 hours
 Subsequently, the 'lambda' folder contains code for a Lambda function which reads data from the same database and gives back the top 10 hashtags in the Amsterdam Area
