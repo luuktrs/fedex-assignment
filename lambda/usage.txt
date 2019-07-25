@@ -1,0 +1,4 @@
+In order to use this code
+1. Create an AWS Lambda function with a corresponding API Gateway, assign the same subnets/vpc/security groups as the database you want to connect to
+2. Create a deployment package by running 'pip install pymysql -t .' in this folder and zipping the folder contents
+3. Use the zipped deployment package by assigning it to the Lambda function
