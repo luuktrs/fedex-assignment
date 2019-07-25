@@ -1,3 +1,10 @@
+"""
+This script is meant to be ran via a Lambda function in AWS and gathers information about hashtags.
+Subsequently it determines trending tweets from the retrieved data
+"""
+
+# Authors: Luuk Tersmette <ltersmette@xebia.com>
+#
 import sys
 import logging
 import aurora_config

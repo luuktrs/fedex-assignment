@@ -20,8 +20,9 @@ Subsequently, the 'lambda' folder contains code for a Lambda function which read
 ### Lambda configuration
 1. Create a new lambda role with the AWSLambdaVPCAccessExecutionRole permission
 2. Create a new Lambda function with this role and place it in the same VPC, Subnets and Security group as the database
-3. Upload the Deployment Package zip in the 'lambda' folder
-4. Create a new API Gateway with default settings as input for the lambda function
+3. Create a deployment package by running 'pip install pymysql -t .' in the lambda folder and zipping the folder contents
+4. Upload the Deployment Package zip in the 'lambda' folder
+5. Create a new API Gateway with default settings as input for the lambda function
 
 Finally, start a scheduled cronjob on the ec2 instance for the application with atleast a 30 minute interval
 
