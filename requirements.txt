@@ -11,7 +11,7 @@ chardet==3.0.4
 cloud-init==18.2
 colorama==0.3.2
 configobj==4.7.2
-cryptography==1.7.2
+cryptography==3.2
 docutils==0.12
 ec2-hibinit-agent==1.0.0
 enum34==1.0.4
